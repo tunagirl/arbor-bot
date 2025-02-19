@@ -14,3 +14,14 @@ Then create a .env file with the following variables (will be loaded automatical
  * `BOT_PUBLIC_KEY` - Application Public Key *DO NOT LEAK*
  * `BOT_CLIENT_ID` - User/client ID of the bot account
  * `SERVER_ID` - Guild ID of server bot is deployed to
+
+## Usage
+To deploy/update commands:
+```
+npm run deploy
+```
+
+To run the bot client:
+```
+npm start
+```
